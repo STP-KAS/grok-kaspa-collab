@@ -4,8 +4,21 @@
 
 This repo is the **collab page**: what Kaspa actually is, where it is useful, where this desk is still delusional, and what to do next. Pins live in [kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file). Orders live in [THINK-BIG.md](https://github.com/STP-KAS/kaspa-master-file/blob/main/THINK-BIG.md). This file is the **honest read**.
 
+**Built here:** [`desk/`](desk/) — a loopback invoice till. Price in **EUR**. SEPA (EPC) QR + optional `kaspa:` QR. You mark paid. CSV for the accountant. HTTP 402 **refuses** unverified `X-Kaspa-Payment`. Does not hold funds.
+
+```powershell
+cd desk
+go test ./...
+go build -o desk.exe .
+$env:DESK_IBAN="DE89370400440532013000"  # yours, not this example
+.\desk.exe
+```
+
+http://127.0.0.1:8091
+
 | Also in this repo | What |
 | --- | --- |
+| [desk/](desk/) | The till. Run it. |
 | [REAL-SCHEME.md](REAL-SCHEME.md) | The whole scheme **beyond crypto**: invoices, SEPA QR, BTCPay, GNU Taler, tax, 402 as billed HTTP |
 | [APPLICATIONS.md](APPLICATIONS.md) | Commercial + other uses, ranked live / maybe / no |
 

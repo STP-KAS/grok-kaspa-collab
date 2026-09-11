@@ -125,10 +125,10 @@ Consumer law does not care that GHOSTDAG is elegant. If you sell to humans in th
 
 Build these so they work with **zero** KAS:
 
-1. Invoice + EPC QR + “mark paid”
-2. PDF receipt + CSV
-3. 402 middleware with a prepaid API key
-4. Local-run app with checksums
+1. Invoice + EPC QR + “mark paid” — **[`desk/`](desk/)**
+2. PDF receipt + CSV — print `/receipt`, download `/csv`
+3. 402 middleware with a prepaid API key — `X-Prepaid-Key`; unverified Kaspa headers **403**
+4. Local-run app with checksums — `go build`; loopback by default
 
 Then add:
 
