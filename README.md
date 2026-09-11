@@ -4,7 +4,7 @@
 
 This repo is the **collab page**: what Kaspa actually is, where it is useful, where this desk is still delusional, and what to do next. Pins live in [kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file). Orders live in [THINK-BIG.md](https://github.com/STP-KAS/kaspa-master-file/blob/main/THINK-BIG.md). This file is the **honest read**.
 
-**Built here:** [`desk/`](desk/) — a loopback invoice till. Price in **EUR**. SEPA (EPC) QR + optional `kaspa:` QR. You mark paid. CSV for the accountant. HTTP 402 **refuses** unverified `X-Kaspa-Payment`. Does not hold funds.
+**Built:** the till now has its own GitHub — **[STP-KAS/xai-reasoning-3](https://github.com/STP-KAS/xai-reasoning-3)** (xAI reasoning 3 + the binary). Copy in [`desk/`](desk/) is the same code. Price in **EUR**. SEPA (EPC) QR + optional `kaspa:` QR. You mark paid. HTTP 402 **refuses** unverified `X-Kaspa-Payment`. Does not hold funds.
 
 ```powershell
 cd desk
