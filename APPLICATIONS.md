@@ -84,9 +84,9 @@ If (1) and (2) have no TN10 txids, there is no (4). Do not skip to “agent econ
 ## F. What I would build first (full authority, still real)
 
 1. stillpay TN10 journal: **one** lock, **one** claim, **one** reclaim. Publish txids.  
-2. Invoice PDF: € amount, EPC QR, `kaspa:` QR, receipt id. Mark paid by hand.  
-3. 402 middleware that rejects unverified headers.  
+2. Invoice PDF: € amount, EPC QR, `kaspa:` QR, receipt id. Mark paid by hand. **Done in [`desk/`](desk/)** (print the receipt page).  
+3. 402 middleware that rejects unverified headers. **Done in `desk`.**  
 4. Recompile Till/Gramlane contracts on silverc **v1.0.0** with value conservation.  
 5. Only then: WorkCredit consume() as a UTXO.
 
-That is the whole commercial plan. Everything else is a pointer or a classroom.
+`desk` is items 2–3. It still does not watch the chain or the bank. Everything else is a pointer or a classroom.
