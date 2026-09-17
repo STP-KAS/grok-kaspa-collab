@@ -1,4 +1,6 @@
-> **Experimental only. Not a product.** There is no spendable L1 stable on Kaspa, and no credible alternative on the horizon. Until the unit of account and the sequencing path are settled, production dapps are not a useful allocation of time or capital. [KASPAglobal](https://x.com/kaspaglobal/status/2100536064683176270) · [DISCLAIMER.md](DISCLAIMER.md)
+> **Experimental only. Not a product.** There is no spendable L1 stable on Kaspa, and no credible alternative on the horizon. Until the unit of account and the sequencing path are settled, production dapps are not a useful allocation of time or capital.
+>
+> Do not use wallet integrations on this GitHub. STP remains a clown. [DISCLAIMER.md](DISCLAIMER.md)
 
 # Grok × Kaspa collab
 
@@ -11,8 +13,7 @@ This repo is the **collab page**: what Kaspa actually is, where it is useful, wh
 ```powershell
 cd desk
 go test ./...
-go build -o desk.exe .
-$env:DESK_IBAN="DE89370400440532013000"  # yours, not this example
+go build -o desk.exe $env:DESK_IBAN="DE89370400440532013000"  # yours, not this example
 .\desk.exe
 ```
 
@@ -151,27 +152,27 @@ Full ranked list: [APPLICATIONS.md](APPLICATIONS.md).
 
 **Law / live**
 
-- https://kaspaexplained.com/status — live vs roadmap vs wrong  
-- https://kaspaexplained.com/build-on-kaspa — covenant counts  
-- https://docs.kaspa.org/toccata — official programmability  
-- https://github.com/kaspanet/silverscript/releases/tag/v1.0.0 — compiler pin  
-- https://github.com/kaspanet/rusty-kaspa/releases/tag/v2.0.1 — node pin  
+- https://kaspaexplained.com/status — live vs roadmap vs wrong
+- https://kaspaexplained.com/build-on-kaspa — covenant counts
+- https://docs.kaspa.org/toccata — official programmability
+- https://github.com/kaspanet/silverscript/releases/tag/v1.0.0 — compiler pin
+- https://github.com/kaspanet/rusty-kaspa/releases/tag/v2.0.1 — node pin
 
 **This desk**
 
-- [kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file)  
-- [stillpay-tn10](https://github.com/STP-KAS/stillpay-tn10) / [stillpay-mainnet](https://github.com/STP-KAS/stillpay-mainnet) (mainnet repo exists; do not treat that as “we are live commerce”)  
-- [peglab-poc](https://github.com/STP-KAS/peglab-poc) · [peglab-stp](https://github.com/STP-KAS/peglab-stp) (WILL DEPEG)  
-- [kns-spec](https://github.com/STP-KAS/kns-spec)  
-- [gramlane](https://github.com/STP-KAS/gramlane)  
+- [kaspa-master-file](https://github.com/STP-KAS/kaspa-master-file)
+- [stillpay-tn10](https://github.com/STP-KAS/stillpay-tn10) / [stillpay-mainnet](https://github.com/STP-KAS/stillpay-mainnet) (mainnet repo exists; do not treat that as “we are live commerce”)
+- [peglab-poc](https://github.com/STP-KAS/peglab-poc) · [peglab-stp](https://github.com/STP-KAS/peglab-stp) (WILL DEPEG)
+- [kns-spec](https://github.com/STP-KAS/kns-spec)
+- [gramlane](https://github.com/STP-KAS/gramlane)
 
 **Steal, don’t worship**
 
-- [elldeeone/kaspa-x402](https://github.com/elldeeone/kaspa-x402) — envelope to bind  
-- [Kali123411/k402](https://github.com/Kali123411/k402) — lock/voucher to steal  
-- [parker2017code/kaspa-explained](https://github.com/parker2017code/kaspa-explained) — 1 sompi receipt pack; `wTestUSD` cannot buy crops  
-- [BTCPay Server](https://btcpayserver.org) — the actual Track 1 shape (self-hosted; plugins; even a Stripe plugin exists — that is the world)  
-- [GNU Taler](https://taler.net) — payment system that **says it is not a cryptocurrency**; merchant has a bank account; HTTP 402 in the design docs  
+- [elldeeone/kaspa-x402](https://github.com/elldeeone/kaspa-x402) — envelope to bind
+- [Kali123411/k402](https://github.com/Kali123411/k402) — lock/voucher to steal
+- [parker2017code/kaspa-explained](https://github.com/parker2017code/kaspa-explained) — 1 sompi receipt pack; `wTestUSD` cannot buy crops
+- [BTCPay Server](https://btcpayserver.org) — the actual Track 1 shape (self-hosted; plugins; even a Stripe plugin exists — that is the world)
+- [GNU Taler](https://taler.net) — payment system that **says it is not a cryptocurrency**; merchant has a bank account; HTTP 402 in the design docs
 - EPC QR / GiroCode (EPC069-12) — SEPA invoice QR. This is how a European shop already “anyone pays with a scan.”
 
 **Out of path until tagged / Active**
@@ -184,7 +185,7 @@ Argent (no tag; two compiler rules unimplemented). KCC-0020 Draft. vProgs #139/#
 
 - Naming it **project delusional** does not make the empty journal less empty.
 - **Skip Circle** is a principle for *this path*. It is not a forecast that shops will stop wanting dollars. x402 volume in the wild is mostly stablecoins. Say that.
-- **Anyone hosts** is real (BTCPay proved it for Bitcoin). **Many jars ≠ one gram** until L1 consume().
+- **Anyone hosts** is real (BTCPay proved it for Bitcoin). **Many jars ≠ one gram** until L1 consume.
 - **Compiler v1.0.0** is not a product. Four holes stay open. Do not sell the tag.
 - **Fees after emission** is the network’s story. This desk creates fees only if someone actually pays for a thing.
 - **AgenC** is a Solana marketplace. Steal billed-agent *work*. Do not integrate their stack.
