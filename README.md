@@ -1,3 +1,5 @@
+> **Experimental only. Not a product.** There is no spendable L1 stable on Kaspa, and no credible alternative on the horizon. Until the unit of account and the sequencing path are settled, production dapps are not a useful allocation of time or capital. [KASPAglobal](https://x.com/kaspaglobal/status/2100536064683176270) · [DISCLAIMER.md](DISCLAIMER.md)
+
 # Grok × Kaspa collab
 
 **Not Kaspa core. Not a KIP. Not a dollar.** Public notes by [@StppStp](https://x.com/StppStp) / [STP-KAS](https://github.com/STP-KAS), after the 11 Sep 2026 master-file freeze and grok heavy review.
