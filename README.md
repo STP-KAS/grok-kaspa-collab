@@ -196,3 +196,12 @@ Kill-if: foreign `readInputState` · tPEG as money · compiler tag sold as a dap
 ---
 
 *Freeze facts: 11 Sep 2026. Recheck DAA, PRs, and tags before quoting. Master file: https://github.com/STP-KAS/kaspa-master-file*
+
+---
+
+> **Standard disclaimer.** This GitHub, not the topic above.
+>
+> Intentions are good; thought process is questionable. STP remains delusional. Si vis pacem, para bellum.
+>
+> Intern at https://sixpack.wtf/  
+> X: https://x.com/StppStp · GitHub: https://github.com/STP-KAS
