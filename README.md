@@ -129,7 +129,7 @@ Full ranked list: [APPLICATIONS.md](APPLICATIONS.md).
 1. Recheck pins: silverc **v1.0.0** (`3ed9733`), rusty **v2.0.1**, `#250`, Argent tag-or-not, kccs#4/#14/#20, [kaspaexplained.com/status](https://kaspaexplained.com/status).
 2. Put **this desk’s** TN10 txids in stillpay’s journal (lock / claim / reclaim), or keep saying the journal is empty.
 3. Make 402 **verify** a txid or a UTXO. A header that is “accepted at HTTP layer only” is a demo, not a payment.
-4. Recompile anything still on **v1-rc1** (Kaspa Till’s README still said that locally) onto **v1.0.0**. `require(value)` on every continuation.
+4. Recompile anything still on **v1-rc1** onto **v1.0.0**. Kaspa Till’s invoice was built on rc1; its README now says the pin is v1.0.0. `require(value)` on every continuation.
 5. Dual invoice: **EUR (or local fiat) + KAS due**. Never kUSD-as-money.
 6. Clone [kaspa-x402](https://github.com/elldeeone/kaspa-x402). Do not start envelope #4. Steal k402’s lock; do not call it x402 v2 or adopted KCC-0402.
 
